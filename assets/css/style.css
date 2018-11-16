@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font: 400 15px/1.8 'Open Sans', sans-serif;
+    color: #777
+}
+
+.brandnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.brandnav span.brand {
+    float: left;
+    display: block;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(29, 29, 29);
+}
+
+.brandnav span.contact {
+    float: right;
+    display: block;
+    padding: 5px 10px;
+    font-size: 17px;
+    font: 400 15px/1.8 'Open Sans', sans-serif; 
+    color: rgb(29, 29, 29);
+}
+
+.brandnav span.contact a {
+    text-decoration: none;
+    font: 400 15px/1.8 'Open Sans', sans-serif; 
+    color: rgb(29, 29, 29);
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font: 400 15px/1.8 'Open Sans', sans-serif;
+}
+
+.image {
+    position: relative;
+    background-color: white;
+    background-image: url(../images/steve_fs.jpg);
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85%;
+    clip: auto;
+}
+
+.portfolioDiv {
+    display: none;
+    position: absolute;
+    background-color: white;
+    bottom: 20px; 
+    /* opacity: 0.85; */
+    z-index: 1;
+    height: 85%;
+    overflow: hidden;
+}
+
+.portfolioInset {
+    position: absolute;
+    bottom: 10%;
+    left: 20px;
+    color: #777;
+    background-color: yellow;
+    text-align: center;
+    padding: 40px 60px;
+    text-align: justify;
+    height: 60%;
+    width: 25%;
+    z-index: 2;
+}
+
+.insetAbout {
+    position: absolute;
+    bottom: 10%;
+    left: 20px;
+    color: #777;
+    background-color: yellow;
+    text-align: center;
+    padding: 40px 60px;
+    text-align: justify;
+    height: 60%;
+    width: 25%;
+    font-size: 14px;
+}
+
+}
+
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    color: #111;
+    margin: 0px;
+}
+
